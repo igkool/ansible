@@ -1,9 +1,9 @@
 # Running AWX on Docker
 
 **REQUIRED OS:**
-	- Ubuntu 22
-	- 2 core = atlease
-	- 4 ram = atlease
+- Ubuntu 22
+- 2 core = atlease
+- 4 ram = atlease
 
 ## 1 - Update the system:
 ```
@@ -26,13 +26,15 @@ sudo apt install python3-pip -y
 **C - Create Python env:**
 ```
 sudo apt install python3.12-venv
-ls /home/ubuntu    = to check if you will see myenv then continue the following cmds.
 ```
 
-- python3 -m venv myenv
-- source /myenv/bin/activate
+ls /home/ubuntu    = to check if you will see myenv then continue the following cmds.
+```
+python3 -m venv myenv
+source /myenv/bin/activate
+```
 
-- **D - Install Ansible:**
+ **D - Install Ansible:**
 ```
 sudo pip3 install ansible
 ansible --version
