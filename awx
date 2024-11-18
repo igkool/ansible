@@ -47,7 +47,10 @@ docker-compose version
 ```
 
 ## 4 - If you are running from other user, I tried with ROOT, did not ran this:
+
+```
 sudo usermod -aG docker $USER
+```
 
 ## 5 - Install the required package like pwgen, vim and git to install and setup awx
 ```
@@ -58,6 +61,7 @@ sudo apt install git vim pwgen -y
 ```
 git clone https://github.com/ansible/awx.git --branch 17.0.1 --depth 1
 ```
+
 ## 7 - Change the directory to awx/installer 
 - (you will not see this folder in new version, so clone the old version i.e 17)
 ```
@@ -69,6 +73,7 @@ cd awx/installer
 $ apt install pwgen
 $ pwgen -N 1 -s 30
 ```
+
 - Exp: UB3kzjNXfLwPNXTAcwuG2LSYqYCPqu
  
 ## 8 - Now we need to modify the inventory file with a text editor(nano): 
