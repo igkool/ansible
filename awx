@@ -1,9 +1,9 @@
 # Running AWX on Docker
 
 **REQUIRED OS:**
-	â- Ubuntu 22
-	â- 2 core = atlease
-	â- 4 ram = atlease
+	- Ubuntu 22
+	- 2 core = atlease
+	- 4 ram = atlease
 
 ## 1 - Update the system:
 ```
@@ -18,12 +18,12 @@ sudo apt install python-setuptools -y
 Sudo apt install python3-setuptools -y
 ```
 
-- **B - Install Python and Pip:**
+**B - Install Python and Pip:**
 ```
 sudo apt install python3-pip -y
 ```
 
-- **C - Create Python env:**
+**C - Create Python env:**
 ```
 sudo apt install python3.12-venv
 ls /home/ubuntu    = to check if you will see myenv then continue the following cmds.
